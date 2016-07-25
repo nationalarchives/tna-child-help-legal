@@ -21,8 +21,7 @@ function setThemeGlobals($environment = null) {
             break;
         case 'external':
             $pre_crumbs = array(
-                'About' => '/about/',
-                'Site home title' => '/about/site-home-title/'
+                'Help and terms of use' => '/help/'
             );
             $pre_path = '/about/site-home-title';
             break;
