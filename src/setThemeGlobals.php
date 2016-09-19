@@ -21,9 +21,9 @@ function setThemeGlobals($environment = null) {
             break;
         case 'external':
             $pre_crumbs = array(
-                'Help and terms of use' => '/help/'
+                'Help' => '/help/'
             );
-            $pre_path = '/about/site-home-title';
+            $pre_path = '/help';
             break;
     }
 }
